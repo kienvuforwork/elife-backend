@@ -29,8 +29,8 @@ const corsOptions = {
   
   const server = http.createServer(app)
 
-  const port = 8080
-server.listen(port,'0.0.0.0', () => {
+  const PORT = process.env.PORT || 8080
+server.listen(PORT, () => {
     console.log("server running on port 8080!")
 })
 
