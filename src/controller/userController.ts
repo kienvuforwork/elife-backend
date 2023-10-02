@@ -1,4 +1,4 @@
-const User = require('./../model/UserModel')
+const User = require('./../model/userModel')
 import express from "express";
 const jwt = require('jsonwebtoken');
 const sharp = require('sharp')

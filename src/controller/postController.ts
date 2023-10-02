@@ -1,6 +1,6 @@
 import express from "express";
 const Post = require("./../model/postModel")
-const User = require('./../model/UserModel')
+const User = require('./../model/userModel')
 const AppError = require("./../ErrorHandler/appError")
 import { catchAsync } from "./../ErrorHandler/catchAsync";
 const Track = require("../model/trackModel")

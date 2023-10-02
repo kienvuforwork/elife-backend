@@ -1,5 +1,5 @@
 
-const User = require('./../model/UserModel')
+const User = require("./../model/userModel")
 import { catchAsync } from "./../ErrorHandler/catchAsync";
 import express from "express";
 const jwt = require('jsonwebtoken');
