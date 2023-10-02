@@ -33,7 +33,7 @@ const multerStorage = multer.diskStorage({
 })
 const storage = multer.memoryStorage();
 const multerFilter = (req: express.Request, file:any, cb:any) => {
-
+  console.log(file.mimetype)
   if(file.mimetype.startsWith('image')){
     cb(null, true)
   }else{
